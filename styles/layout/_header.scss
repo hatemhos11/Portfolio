@@ -1,0 +1,120 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    min-height: var(--header-hight);
+    z-index: var(--z-fixed);
+    &.fixed{
+        position: fixed;
+        background-color: var(--container-color-light);
+        box-shadow: 0 0 8px var(--container-color);
+        animation: fadein .7s forwards;
+    }
+    @keyframes fadein {
+        0%{translate: 0 -100%;opacity: 0;}
+        100%{translate: 0 0;opacity: 1;}
+    }
+
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__logo{
+        filter:drop-shadow(0 0 5px black);
+        transition: var(--main-transition);
+        &:hover{
+            filter:drop-shadow(0 0 10px black)
+        }
+        flex: .25;
+    }
+
+    &__menuIcon{
+        cursor: pointer;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 1rem 0;
+        border-radius: 1rem;
+        transition: var(--main-transition);
+        z-index: var(--z-fixed);
+        opacity: 1;
+        flex: 1;
+
+        &__links{
+            display: flex;
+            flex: .5;
+            margin: 0 auto;
+        }
+        &__link{
+            text-align: center;
+            width: 100%;
+            padding: .6rem 0;
+            cursor: pointer;
+            transition: var(--main-transition);
+            &:hover{
+                color: var(--main-color);
+                text-shadow: 0 0 10px var(--main-color);
+            }
+        }
+        &__button{
+            
+        }
+
+
+        // Menu  MediaQuery For (Extra Small Screens)
+        @include breakpoint(xs){
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            position: absolute;
+            top: var(--header-hight);
+            left: 50%;
+            translate: -50% 0;
+            background: var(--container-color);
+            box-shadow: 0 0 10px var(--container-color-lighten);
+            &__links{
+                position: static;
+                flex-direction: column;
+            }
+            &.close{
+                translate: -50% -105%;  /* 5% for shadow */
+                top: 0;
+                opacity: 1;
+            }
+        }
+
+
+
+
+        // @include breakpoint(md){
+        //     flex: .7;
+        // }
+        // @include breakpoint(lg){
+        //     flex: .6;
+        // }
+
+    }
+
+    &__toggle-icon{
+        @include breakpoint(sm){
+            display: none;
+
+        }
+    }
+
+}
+
+
+
+// =================== @media queries ============================ 

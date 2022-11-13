@@ -1,0 +1,91 @@
+
+
+.loading {
+    position: fixed;
+    inset: 0;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--container-color);
+    z-index: var(--z-fixed);
+    &__container{
+        position: relative;
+        width: 10rem;
+        height: 10rem;
+        display: grid;
+        place-items: center;
+    }
+	animation: LoadingFade .3s;
+}
+@keyframes LoadingFade {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+
+.dot {
+	--dot: 1.75vmin;
+	background: radial-gradient(circle at 50% calc(5vmin + 2px), var(--main-color) var(--dot), #fff0 calc(var(--dot) + 2px));
+	box-shadow: 1px solid block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	animation: spin 1.5s cubic-bezier(0.4, 0, 0.2, 1) 0s infinite;
+
+}	
+
+@keyframes spin {
+	0%, 20% { transform: rotate(0deg); filter: drop-shadow(0 0 0 #fff0); }
+	60% { filter: drop-shadow(-0.25vmin 0 0 var(--main-color-alt)) drop-shadow(-0.25vmin 0 0 var(--main-color-alt)) drop-shadow(-0.25vmin 0 0 var(--main-color-alt)); }
+	100% { transform: rotate(360deg); filter: drop-shadow(0 0 0 #fff0); }
+}
+
+.dot:nth-child(2){
+	--dot: 1.5vmin;
+	animation-delay: 0.05s;
+}
+
+.dot:nth-child(3){
+	--dot: 1.75vmin;
+	animation-delay: 0.1s;
+}
+
+.dot:nth-child(4){
+	--dot: 1.5vmin;
+	animation-delay: 0.15s;
+}
+
+.dot:nth-child(5){
+	--dot: 1.25vmin;
+	animation-delay: 0.2s;
+}
+
+.dot:nth-child(6){
+	--dot: 1vmin;
+	animation-delay: 0.25s;
+}
+
+.dot:nth-child(7){
+	--dot: .75vmin;
+	animation-delay: 0.3s;
+}
+
+.dot:nth-child(8){
+	--dot: .5vmin;
+	animation-delay: 0.35s;
+}
+
+.dot:nth-child(9){
+	--dot: .25vmin;
+	animation-delay: 0.4s;
+}
+
+.dot:nth-child(10){
+	--dot: .15vmin;
+	animation-delay: 0.45s;
+}

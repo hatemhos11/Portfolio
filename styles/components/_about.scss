@@ -1,0 +1,44 @@
+.about{
+    display: grid;
+    grid-template-columns:  repeat(2,1fr);
+    gap: 2rem;
+    min-height: calc(100vh - var(--header-hight));
+    @include breakpoint(xs){
+        grid-template-columns:  1fr;
+        text-align: center;
+        margin-top: -3rem; 
+    }
+
+    &__content{
+            place-self: center;
+            &--name{
+                color: var(--main-color);
+            }
+    }
+    &__links{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        column-gap: 2rem;
+        &--icons{
+            display: flex;
+            gap: 2rem;
+        }
+
+    }
+
+// ------------------------------------------------------
+
+    &__img-parent{
+        @include breakpoint(xs){
+            display: none;
+        }
+        position: relative;
+        z-index: var(--z-0);
+    }
+    &__img{
+        filter: drop-shadow(0 4px 8px var(--main-color));
+    }
+
+
+}

@@ -1,0 +1,51 @@
+:root{
+    // ↓↓↓↓↓↓↓↓↓↓  COLORS  ↓↓↓↓↓↓↓↓↓↓
+    --hue: 167;
+    --sat: 98%;
+    --main-color: hsl(var(--hue), var(--sat), 50%);
+    --main-color-light: hsl(var(--hue), var(--sat), 70%);
+    --main-color-alt: hsl(var(--hue), var(--sat), 25%);
+    --text-color: hsl(var(--hue), var(--sat), 97%);
+    --text-color-light: hsl(var(--hue), 20%, 80%);
+    --text-color-dark: hsl(215, 18%, 16%);
+    --container-color: hsl(215, 21%, 11%);
+    --container-color-light: hsl(215, 18%, 15%);
+    --container-color-lighten: hsl(215, 18%, 30%);
+    --scroll-bar-color: hsl(220, 18%, 10%);
+    --scroll-thumb-color: hsl(217, 16%, 31%);
+
+
+
+    // ↓↓↓↓↓↓↓↓↓↓  Layout  ↓↓↓↓↓↓↓↓↓↓
+    --header-hight: 6rem;
+
+    // ↓↓↓↓↓↓↓↓↓↓  Font & Typography  ↓↓↓↓↓↓↓↓↓↓
+    --xxl-font: 2rem;
+    --xl-font: 1.6rem;
+    --lg-font: 1.25
+    --md-font: .938rem;
+    --sm-font: .75rem;
+    
+
+    // ↓↓↓↓↓↓↓↓↓↓  Breakpoint Fonts  ↓↓↓↓↓↓↓↓↓↓
+    @include breakpoint(md){
+        --xxl-font: 3rem;
+        --xl-font: 2.25rem;
+        
+        --lg-font: 1.75;
+        --md-font: 1rem;
+        --sm-font: .81rem;
+    }
+
+    // ↓↓↓↓↓↓↓↓↓↓  Transitions  ↓↓↓↓↓↓↓↓↓↓
+    --main-transition: .3s ease-in;
+    --main-transition-slow: .6s ease-in;
+    
+    // ↓↓↓↓↓↓↓↓↓↓  Z-Index  ↓↓↓↓↓↓↓↓↓↓
+    --z-0: -1;
+    --z-10: 10;
+    --z-20: 30;
+    --z-30: 30;
+    --z-50: 50;
+    --z-fixed: 100;
+}

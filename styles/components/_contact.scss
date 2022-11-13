@@ -1,0 +1,77 @@
+.contact{
+    // &__head{}
+    // &__title{}
+// =========================
+    &__links{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+// =========================
+    &__form{
+        display: block;
+        margin: auto;
+        justify-content: center;
+        width: 40rem;
+        @include breakpoint(xs){
+            width: 100%;
+        }
+        & .msg{
+            width: 100%;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+            border-radius: 1rem;
+            color: var(--container-color);
+            transition: var(--main-transition);
+            font-weight: bold;
+            text-align: center;
+        }
+        & .msg-success{
+            background-color: var(--main-color);
+            padding: 1rem;
+        }
+        & .msg-reject{
+            padding: 1rem;
+            background-color: tomato;
+            color: var(--container-color);
+        }
+    }
+    &__input{
+        background-color: var(--container-color-light);
+        border-bottom: .3rem solid var(--main-color-alt);
+        padding: 1.5rem 1rem;
+        margin-bottom: .7rem;
+        width: 100%;
+        color: var(--main-color);
+        transition: var(--main-transition);
+        font-size: var(--lg-font);
+
+        &:focus{
+            border-color: var(--main-color);
+
+        }
+        &::placeholder{
+            color: var(--main-color-alt);
+            opacity: .4;
+
+        }
+        &.textarea{
+            background-color: aqua;
+            font-size: var(--lg-font);
+            font-weight: bold;
+        }
+    }
+
+    &__button{
+        background-color: var(--main-color);
+        width: 100%;
+        transition: var(--main-transition);
+        &:hover{
+            background-color: var(--main-color);
+        }
+    }
+
+// =========================
+
+}

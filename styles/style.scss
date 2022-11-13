@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import 'config/functions';
+@import 'config/variables';
+
+@import 'base/base';
+
+@import 'components/button';
+@import 'components/popup';
+@import 'components/sixshape';
+
+@import 'components/about';
+@import 'components/skills';
+@import 'components/projects';
+@import 'components/contact';
+
+@import 'pages/cv';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/loading';
+

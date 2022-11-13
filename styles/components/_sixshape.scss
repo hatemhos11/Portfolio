@@ -1,0 +1,38 @@
+.sixshape{
+    &-link{
+        color: var(--container-color);
+        --w-size: 2.5rem;
+        --h-size: calc(var(--w-size) * .5);
+        display: grid;
+        place-items: center;
+        position: relative;
+        width: var(--w-size);
+        height: var(--h-size);
+        background-color: var(--main-color);
+        opacity: .6;
+        box-shadow: 0 0 3px var(--main-color);
+        transition: box-shadow var(--main-transition);
+        z-index: 1;
+        &:hover{
+            box-shadow: 0 0 10px var(--main-color);
+            opacity: 1;
+        }
+        &::after,&::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            border-right: calc( var(--w-size) * .5) solid transparent;
+            border-left: calc( var(--w-size) * .5) solid transparent;
+            z-index: var(--z-0);
+            filter: drop-shadow( 0 0 2px var(--main-color)) ;
+        }
+        &::after{
+            top: calc( var(--w-size) * -30/100);
+            border-bottom: calc( var(--w-size) * 30/100) solid var(--main-color);                ;
+        }
+        &::before{
+            bottom: calc( var(--w-size) * -30/100);
+            border-top: calc( var(--w-size) * 30/100) solid var(--main-color);
+        }
+    }
+}

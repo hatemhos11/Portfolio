@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200"
+   height="150"
+   viewBox="0 0 52.916665 39.687499"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3026915"
+     inkscape:cx="100.17721"
+     inkscape:cy="86.743486"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="text234" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient15131">
+      <stop
+         style="stop-color:#00bd94;stop-opacity:1;"
+         offset="0"
+         id="stop15127" />
+      <stop
+         style="stop-color:#00ebb6;stop-opacity:1;"
+         offset="1"
+         id="stop15129" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient11339">
+      <stop
+         style="stop-color:#00bd94;stop-opacity:1;"
+         offset="0"
+         id="stop11335" />
+      <stop
+         style="stop-color:#00ebb6;stop-opacity:1;"
+         offset="1"
+         id="stop11337" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient11329">
+      <stop
+         style="stop-color:#02bb92;stop-opacity:1;"
+         offset="0"
+         id="stop11327" />
+      <stop
+         style="stop-color:#00ebb6;stop-opacity:1;"
+         offset="1"
+         id="stop11325" />
+    </linearGradient>
+    <rect
+       x="36.079149"
+       y="32.240942"
+       width="142.78131"
+       height="117.75906"
+       id="rect11296" />
+    <rect
+       x="24.180706"
+       y="25.332169"
+       width="181.16339"
+       height="142.01367"
+       id="rect236" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11329"
+       id="linearGradient11331"
+       x1="81.513751"
+       y1="92.956201"
+       x2="110.11234"
+       y2="105.35073"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11339"
+       id="linearGradient11341"
+       x1="113.85732"
+       y1="122.38437"
+       x2="152.11455"
+       y2="122.38437"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.3875092e-6)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15131"
+       id="linearGradient15133"
+       x1="114.15213"
+       y1="116.17619"
+       x2="160.17013"
+       y2="116.17619"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.82044534,0,0,0.82044534,20.593661,22.131783)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       aria-label="H"
+       transform="matrix(0.51618011,0,0,0.51618011,-32.31255,-28.30765)"
+       id="text234"
+       style="font-size:96px;font-family:'Bold Italic Art';-inkscape-font-specification:'Bold Italic Art';text-align:center;text-anchor:middle;white-space:pre;shape-inside:url(#rect236);shape-padding:15.3528;fill:#f97316;fill-rule:evenodd;stroke-width:46.7339;stroke-dasharray:46.7339, 46.7339">
+      <path
+         id="path398"
+         clip-path="none"
+         style="font-weight:bold;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';stroke-width:52.106"
+         d="m 118.83609,126.66481 c -46.508129,-51.393415 -23.254066,-25.69671 0,0 z"
+         sodipodi:nodetypes="cc" />
+      <path
+         id="path1338"
+         clip-path="none"
+         style="font-weight:bold;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:url(#linearGradient11331);fill-opacity:1;fill-rule:evenodd;stroke-width:52.106"
+         d="M 80.488592,60.641939 V 124.3788 h 15.142546 v -24.00973 h 23.204952 l 0.0776,9.40941 h 15.14254 l -0.0776,-49.136541 H 118.83609 V 86.951075 H 95.631138 V 60.641939 Z"
+         sodipodi:nodetypes="ccccccccccccc" />
+      <path
+         id="rect8178"
+         style="fill:url(#linearGradient11341);stroke-width:23.4826;stroke-dasharray:23.4826, 23.4826"
+         d="m 118.74964,121.69186 h 40.96464 v 2.68694 h -40.96464 z" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.51257948,0,0,0.51257948,62.599371,54.840645)"
+         id="text11294"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';text-align:center;white-space:pre;shape-inside:url(#rect11296);display:inline;fill:#00bd94;fill-opacity:1;fill-rule:evenodd;stroke-width:46.7339;stroke-dasharray:46.7339, 46.7339" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.3019px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';text-align:center;text-anchor:middle;fill:#00bd94;fill-opacity:1;fill-rule:evenodd;stroke-width:23.9548;stroke-dasharray:23.9548, 23.9548"
+         x="136.46956"
+         y="106.86974"
+         id="text11345"><tspan
+           sodipodi:role="line"
+           id="tspan11343"
+           style="stroke-width:23.9548"></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.3019px;font-family:'DecoType Naskh Special';-inkscape-font-specification:'DecoType Naskh Special Bold';text-align:center;text-anchor:middle;white-space:pre;inline-size:50.3462;display:inline;fill:url(#linearGradient15133);fill-opacity:1;fill-rule:evenodd;stroke-width:23.9548;stroke-dasharray:23.9548, 23.9548"
+         x="137.16048"
+         y="120.64824"
+         id="text15125"
+         transform="matrix(0.89018731,0,0,0.89018731,17.132859,12.921101)"><tspan
+           x="137.16048"
+           y="120.64824"
+           id="tspan22124">HATEM</tspan></text>
+    </g>
+  </g>
+</svg>
