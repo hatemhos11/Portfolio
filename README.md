@@ -1,6 +1,6 @@
-# My Portfolio
+<h1 align='center' >My Portfolio</h1>
 
-## Demo Link
+## Demo
 <p align='center'>
   https://portfolio-hatemhos11.vercel.app
 </p>
