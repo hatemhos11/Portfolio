@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import Image, { StaticImageData } from 'next/image';
-import project1 from '../../assets/project1.png';
-import project2 from '../../assets/project2.png';
-import project3 from '../../assets/project3.png';
-import project4 from '../../assets/project4.png';
+import {project1,project2,project3,project4} from '../../assets/projects';
 
 const ProjectSlider = () => {
 	// Keen Slider Config
@@ -57,7 +54,7 @@ const ProjectSlider = () => {
     return (
         <>
             <div ref={sliderRef} className='keen-slider projects__cards'>
-                    <Project src={project1} alt='project2'/>
+                    <Project src={project1} alt='project1'/>
                     <Project src={project2} alt='project2'/>
                     <Project src={project3} alt='project3'/>
                     <Project src={project4} alt='project4'/>
