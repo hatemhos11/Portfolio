@@ -55,8 +55,12 @@
             display: flex;
             flex: .5;
             margin: 0 auto;
+            @include breakpoint(sm){
+                gap: 1.5rem;
+            }
         }
         &__link{
+            
             text-align: center;
             width: 100%;
             padding: .6rem 0;
@@ -67,9 +71,7 @@
                 text-shadow: 0 0 10px var(--main-color);
             }
         }
-        &__button{
-            
-        }
+        &__button{}
 
 
         // Menu  MediaQuery For (Extra Small Screens)
