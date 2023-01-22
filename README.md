@@ -13,8 +13,11 @@
 
 ## Tools & Technologies
 
+- `Typescript`
+
 - `Next.js`
 
 - `SASS`
 
 - `Keen Slider`
+
