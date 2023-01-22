@@ -16,8 +16,8 @@
         animation: fadein .7s forwards;
     }
     @keyframes fadein {
-        0%{translate: 0 -100%;opacity: 0;}
-        100%{translate: 0 0;opacity: 1;}
+        0%{transform: translate(0, -100%);opacity: 0;}
+        100%{transform: translate(0, 0);opacity: 1;}
     }
 
     &__nav{
@@ -71,7 +71,8 @@
                 text-shadow: 0 0 10px var(--main-color);
             }
         }
-        &__button{}
+        // &__button{
+        // }
 
 
         // Menu  MediaQuery For (Extra Small Screens)
@@ -82,7 +83,7 @@
             position: absolute;
             top: var(--header-hight);
             left: 50%;
-            translate: -50% 0;
+            transform: translate(-50%, 0);
             background: var(--container-color);
             box-shadow: 0 0 10px var(--container-color-lighten);
             &__links{
@@ -90,7 +91,7 @@
                 flex-direction: column;
             }
             &.close{
-                translate: -50% -105%;  /* 5% for shadow */
+                transform: translate(-50%, -105%);  /* 5% for shadow */
                 top: 0;
                 opacity: 1;
             }

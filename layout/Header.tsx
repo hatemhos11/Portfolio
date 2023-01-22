@@ -36,12 +36,12 @@ const Header = () => {
 						/>
 					</Link>
 					<ul className={`header__list ${isOpen ? '' : 'close'}`}>
-						<div className='header__list__links'>
+						<li className='header__list__links'>
 							<NavLink setIsOpen={setIsOpen} href='/' title='Home' />
 							<NavLink setIsOpen={setIsOpen} href='/projects' title='Projects' />
 							<NavLink setIsOpen={setIsOpen} href='/resume' title='Resume' />
 							<NavLink setIsOpen={setIsOpen} href='/contact' title='Contact' />
-						</div>
+						</li>
 
 						<button className='button header__list__button'>
 							<a href='mailto:hatemhosni00@gmail.com'>Hire Me</a>
@@ -79,10 +79,8 @@ type navLinkType= { href: string, title: string, setIsOpen:any}
 const NavLink = ({href,title, setIsOpen}: navLinkType) => {
 	
 	return (
-		<Link className='header__list__link' href={href}>
-			<li onClick={()=>setIsOpen(false)}>
-				{title}
-			</li>
+		<Link onClick={()=>setIsOpen(false)} className='header__list__link' href={href}>
+			{title}
 		</Link>
 	);
 };

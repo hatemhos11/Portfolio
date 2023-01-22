@@ -1,38 +1,39 @@
-.popup{
-    &:hover::after,&:hover::before{
-        position: absolute;
-        top: 0;
-        left: 50%;
-        color: var(--container-color);
-        animation: FadePopUp .2s ease-in;
-    }
-    
-    &:hover::before{
-        content: '';
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-top: 10px solid var(--main-color);
-        translate: -50% calc(-100% );
-        z-index: 10;
+.popup {
+	&:hover::after,
+	&:hover::before {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		color: var(--container-color);
+		animation: FadePopUp 0.2s ease-in;
+	}
 
-    }
-    &:hover::after{
-        content: attr(data-content);
-        text-align: center;
-        width: max-content;
-        padding: .6rem .9rem;
-        translate: -50% calc(-100% - 10px);
-        border-radius: 1rem;
-        background-color: var(--main-color);
-        box-shadow: 0 0 10px var(--main-color);
-    }
-    @keyframes FadePopUp {
-        from{
-            opacity: 0;top: 10px        
-        }
-        to{
-            opacity: 1;top:0px
-        }
-    }
-
+	&:hover::before {
+		content: '';
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 10px solid var(--main-color);
+		transform: translate(-50%, calc(-100%));
+		z-index: 10;
+	}
+	&:hover::after {
+		content: attr(data-content);
+		text-align: center;
+		width: max-content;
+		padding: 0.6rem 0.9rem;
+		transform: translate(-50%, calc(-100% - 10px));
+		border-radius: 1rem;
+		background-color: var(--main-color);
+		box-shadow: 0 0 10px var(--main-color);
+	}
+	@keyframes FadePopUp {
+		from {
+			opacity: 0;
+			top: 10px;
+		}
+		to {
+			opacity: 1;
+			top: 0px;
+		}
+	}
 }
