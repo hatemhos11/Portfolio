@@ -66,18 +66,12 @@ const ProjectSlider = () => {
                     <>
                         <Arrow
                             left
-                            onClick={(e: any) =>
-                                e.stopPropagation() ||
-                                instanceRef.current?.prev()
-                            }
+                            onClick={(e: any) => e.stopPropagation() || instanceRef.current?.prev() }
                             disabled={currentSlide === 0}
                         />
 
                         <Arrow
-                            onClick={(e: any) =>
-                                e.stopPropagation() ||
-                                instanceRef.current?.next()
-                            }
+                            onClick={(e: any) => e.stopPropagation() || instanceRef.current?.next() }
                             disabled={
                                 currentSlide ===
                                 instanceRef.current.track.details.slides

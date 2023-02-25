@@ -2,8 +2,6 @@ import Link from 'next/link';
 import ProjectSlider from './ProjectSlider'
 
 const Projects = () => {
-
-
 	return (
 		<section className='projects container'>
 			{/* Head (title & description) */}

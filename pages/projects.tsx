@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import ProjectCards from "../components/projects/ProjectCards";
 
 const Projects = () => {
     return (<>
@@ -7,8 +8,8 @@ const Projects = () => {
             <title>Hatem&apos;s Portfolio | Projects</title>
             <meta name="description" content="Frontend Developer" />
         </Head>
-        <div>
-            
+        <div className="container">
+            <ProjectCards/>
         </div>
     </>
     );

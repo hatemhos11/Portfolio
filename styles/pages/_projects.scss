@@ -1,0 +1,74 @@
+.project-p {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	flex-wrap: wrap;
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		width: 20rem;
+		height: 20rem;
+		background-color: var(--text-color-dark);
+		border-radius: 5px;
+		box-shadow: 0 0 15px rgb(9, 10, 15);
+		overflow: hidden;
+	}
+	&__img {
+		position: relative;
+		height: 90%;
+		overflow: hidden;
+		background-color: black;
+	}
+
+	&__btns {
+		padding: 1rem;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	&__btn:first-of-type {
+		background-color: var(--main-color);
+		color: white;
+	}
+	&__btn {
+		color: var(--main-color);
+		font-weight: 500;
+		background-color: white;
+		padding: 0.1rem 1rem;
+		border-radius: 5px;
+		box-shadow: 0 0 5px -1px var(--main-color);
+		transition: box-shadow 0.3s;
+		&:hover {
+			box-shadow: 0 0 5px 0 var(--main-color);
+		}
+	}
+
+	.card__img {
+		width: 100%;
+	}
+}
+
+// keen slider arrows
+
+.arrow {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	fill: #fff;
+	cursor: pointer;
+
+	&--left {
+		left: 5px;
+	}
+	&--right {
+		left: auto;
+		right: 5px;
+	}
+	&--disabled {
+		fill: rgba(255, 255, 255, 0.5);
+	}
+}
