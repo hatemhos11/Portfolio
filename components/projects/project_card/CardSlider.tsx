@@ -15,7 +15,6 @@ const CardSlider = ({ images }: any) => {
 			setLoaded(true);
 		},
 	});
-	console.log(images);
 	return (
 		<>
 			<div className='navigation-wrapper'>

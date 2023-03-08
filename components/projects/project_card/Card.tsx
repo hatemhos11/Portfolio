@@ -2,7 +2,6 @@ import Link from 'next/link';
 import CardSlider from './CardSlider';
 
 const Card = ({project}: any) => {
-	console.log(project.img_src)
 	return (
 		<div className='project-p__card '>
 			<div className='project-p__img'>
