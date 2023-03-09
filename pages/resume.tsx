@@ -4,9 +4,8 @@ import Education from '../components/resume/Education';
 import HeadResume from '../components/resume/HeadResume';
 import ProjectsResume from '../components/resume/ProjectsResume';
 import SkillsResume from '../components/resume/SkillsResume';
-import WorkHistory from '../components/resume/WorkHistory';
 
-const Resume = ():ReactElement => {
+const Resume = () => {
 	return (
 		<>
 			<Head>
@@ -18,7 +17,6 @@ const Resume = ():ReactElement => {
 				<div className='resume__container'>
 					<HeadResume />
 					<SkillsResume />
-					{/* <WorkHistory />*/}
 					<ProjectsResume />
 					<Education />
 				</div>

@@ -20,7 +20,7 @@ const CardSlider = ({ images }: any) => {
 			<div className='navigation-wrapper'>
 				<div ref={sliderRef} className='keen-slider'>
 					{images.map((IMG: StaticImageData) => (
-						<Project src={IMG} alt='project-image' />
+						<Project key={IMG + ''} src={IMG} alt='project-image' />
 					))}
 				</div>
 				{loaded && instanceRef.current && (
