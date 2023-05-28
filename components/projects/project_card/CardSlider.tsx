@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import Image, { StaticImageData } from 'next/image';
-import { project1 } from '../../../assets/projects';
 
 const CardSlider = ({ images }: any) => {
 	const [currentSlide, setCurrentSlide] = useState(0);
@@ -20,7 +19,11 @@ const CardSlider = ({ images }: any) => {
 			<div className='navigation-wrapper'>
 				<div ref={sliderRef} className='keen-slider'>
 					{images.map((IMG: StaticImageData) => (
-						<Project key={IMG + ''} src={IMG} alt='project-image' />
+						<Project
+							key={IMG.src}
+							src={IMG}
+							alt='project-image'
+						/>
 					))}
 				</div>
 				{loaded && instanceRef.current && (

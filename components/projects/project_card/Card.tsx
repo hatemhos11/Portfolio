@@ -1,17 +1,17 @@
 import Link from 'next/link';
 import CardSlider from './CardSlider';
 
-const Card = ({project}: any) => {
+const Card = ({ project }: any) => {
 	return (
 		<div className='project-p__card '>
 			<div className='project-p__img'>
-				<CardSlider images={project.img_src} />
+				<CardSlider images={project.img_src}/>
 			</div>
 			<div className='project-p__btns'>
-				<Link className='project-p__btn' href='sldkf'>
+				<Link target='__blank' className='project-p__btn' href={project.gitLink}>
 					CODE
 				</Link>
-				<Link className='project-p__btn' href='/lk'>
+				<Link className='project-p__btn' href={project.demoLink}>
 					DEMO
 				</Link>
 			</div>

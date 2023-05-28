@@ -21,7 +21,7 @@ const HeadResume = () => {
             <Link className="head__links__link" href='https://github.com/hatemhos11'>Github</Link>
             <Link className="head__links__link" href='https://www.linkedin.com/in/hatem-elsharkawy-150283212'>Linkedin</Link>
             <Link className="head__links__link" href=''>LeetCode</Link>
-            <Link className="head__links__link" href=''>Download Resume</Link>
+            <Link className="head__links__link" href='Hatem_Elsharkawy_CV.pdf' download>Download Resume</Link>
         </div>
         </>
         

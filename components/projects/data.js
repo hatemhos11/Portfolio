@@ -49,7 +49,8 @@ const data = [
 		desc: '',
 		tools: ['css', 'html', 'React.js', 'Redux', 'react-router_V5'],
 		demoLink: 'https://wd-u-rather.netlify.app',
-		gitLink: 'https://github.com/hatemhos11/Would-You-Rather-Project---Udacity',
+		gitLink:
+			'https://github.com/hatemhos11/Would-You-Rather-Project---Udacity',
 	},
 	{
 		id: 4,
@@ -71,21 +72,12 @@ const data = [
 	},
 	{
 		id: 6,
-		title: 'Delevery App',
+		title: 'Delivery App',
 		img_src: [project6_1, project6_2, project6_3, project6_4, project6_5],
 		desc: '',
 		tools: ['css', 'html'],
 		demoLink: 'https://hatemhos11.github.io/Delivery-project/',
-		gitLink: '',
-	},
-	{
-		id: 6,
-		title: 'Delevery App',
-		img_src: [project7_1, project7_2, project7_3],
-		desc: '',
-		tools: ['css', 'html'],
-		demoLink: 'https://hatemhos11.github.io/Delivery-project/',
-		gitLink: '',
+		gitLink: 'https://github.com/hatemhos11/Delivery-project',
 	},
 ];
 

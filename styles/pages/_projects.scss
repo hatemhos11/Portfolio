@@ -3,7 +3,7 @@
 	justify-content: space-between;
 	gap: 1rem;
 	flex-wrap: wrap;
-
+	margin: auto;
 	&__card {
 		display: flex;
 		flex-direction: column;
@@ -33,9 +33,9 @@
 	}
 	&__btn {
 		color: var(--main-color);
-		font-weight: 500;
+		font-weight: 600;
 		background-color: white;
-		padding: 0.1rem 1rem;
+		padding: 0.4rem 1rem;
 		border-radius: 5px;
 		box-shadow: 0 0 5px -1px var(--main-color);
 		transition: box-shadow 0.3s;
